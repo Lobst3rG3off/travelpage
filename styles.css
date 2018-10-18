@@ -140,6 +140,29 @@ section .feature {
 	float: left;
 	margin-left: 5px;
 }
+
+.pic5:hover figcaption {
+			display: block;
+		}
+
+		.pic5 {
+			position: relative;
+		}
+
+figcaption {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			padding-top: 40%;
+			font-size: 30px;
+			color: white;
+			text-align: center;
+			background: linear-gradient(to bottom, rgba(0,0,0,0.5) , rgba(0,0,0,0.2));
+			display: none;
+		}
+
 .gallery .pic6 {
 	width: calc(50% - 5px);
 	float: left;
@@ -147,54 +170,7 @@ section .feature {
 }
 
 
-/*.grid {
-	margin: 0 auto;
-	width: 90%;
-	padding: 20px;
 
-}
-
-.box {
-float: left;
-max-width: 50%;
-margin: 10px;
-}
-
-.pic1 {
-	width: 25%;
-	margin: 5px;
-}
-.box.pic1 img {
-width: 141%;
-
-}
-
-.box.pic2 img {
-width: 60%;
-
-}
-
-.pic2 {
-width: 70%;
-margin: 5px;
-background-color: #F6F8FA;
-}
-
-.pic3 {
-	background-color: #F6F8FA;
-	
-	
-}
-.pic4 {
-	
-}
-.pic5 {
-	
-}
-.pic6 {
-	
-}
-*/
 footer {
 	clear: both;
 	background-color: #F6F8FA;
