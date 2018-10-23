@@ -58,8 +58,6 @@ header {
 	color:#005769;
 	font-weight: 700;
 	display: inline-block;
-	width: 49%;
-
 }
 
 a {
@@ -100,7 +98,6 @@ h2 {
 position: relative;
 padding-top: 31px;
 display: inline-block;
-    width: 51%;
     float: right;
 }
 
@@ -135,8 +132,13 @@ section .feature {
 	margin-top: 10px;
 
 }
+
+.gallery-pic {
+	position: relative;
+}
+
 .gallery .pic5 {
-	width:calc(50% - 5px);
+	width:calc(33.33% - 5px);
 	float: left;
 	margin-left: 5px;
 }
@@ -144,6 +146,8 @@ section .feature {
 .pic5:hover figcaption {
 			display: block;
 		}
+
+
 
 		.pic5 {
 			position: relative;
@@ -164,11 +168,22 @@ figcaption {
 		}
 
 .gallery .pic6 {
-	width: calc(50% - 5px);
+	width: calc(33.33% - 5px);
 	float: left;
 	margin-left: 5px;
 }
+.pic6:hover figcaption {
+			display: block;
+		}
 
+.gallery .pic7 {
+	width: calc(33.33% - 5px);
+	float: left;
+	margin-left: 5px;
+}
+.pic7:hover figcaption {
+			display: block;
+		}
 
 
 footer {
